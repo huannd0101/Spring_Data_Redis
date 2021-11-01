@@ -5,6 +5,7 @@
     <span class="px-1 text-bold">Redis-x64-3.0.504.msi</span>
 </a>    
 2. Add dependence <br>
+   
 <pre>&lt;<span class="pl-ent">dependency</span>&gt;
   &lt;<span class="pl-ent">groupId</span>&gt;redis.clients&lt;/<span class="pl-ent">groupId</span>&gt;
   &lt;<span class="pl-ent">artifactId</span>&gt;jedis&lt;/<span class="pl-ent">artifactId</span>&gt;
@@ -18,7 +19,7 @@
 &lt;/<span class="pl-ent">dependency</span>&gt;
 </pre>
 
-3. Config trong file application.properties
+1. Config trong file application.properties
 
 spring.cache.type=redis <br>
 spring.redis.host=localhost <br>
