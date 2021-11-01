@@ -1,2 +1,4 @@
-package com.example.democachewithsqlserver.controller;public class UserController {
+package com.example.democachewithsqlserver.controller;
+
+public class UserController {
 }
